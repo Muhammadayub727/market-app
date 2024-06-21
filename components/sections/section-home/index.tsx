@@ -135,14 +135,14 @@ function Index() {
                       <path
                         d="M2 19.9087H84C78.0364 20.572 66.1091 17.9189 66.1091 2"
                         stroke="white"
-                        stroke-width="4"
-                        stroke-linecap="square"
+                        strokeWidth="4"
+                        strokeLinecap="square"
                       />
                       <path
                         d="M2 20.0913H84C78.0364 19.428 66.1091 22.0811 66.1091 38"
                         stroke="white"
-                        stroke-width="4"
-                        stroke-linecap="square"
+                        strokeWidth="4"
+                        strokeLinecap="square"
                       />
                     </g>
                   </svg>
