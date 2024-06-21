@@ -70,9 +70,11 @@ function Header() {
               </div>
             </div>
             <div className="flex items-center gap-[15px]">
-              <button className="rounded-[5px] bg-[#F2F2F2] text-black p-[15px] hover:bg-[#FBD029] active:bg-[#F2F2F2] duration-300">
-                <i className="bi bi-person"></i>
-              </button>
+              <Link href={"/login"}>
+                  <button className="rounded-[5px] bg-[#F2F2F2] text-black p-[15px] hover:bg-[#FBD029] active:bg-[#F2F2F2] duration-300">
+                    <i className="bi bi-person"></i>
+                  </button>
+              </Link>
               <button className="rounded-[5px] bg-[#F2F2F2] text-black p-[15px] hover:bg-[#FBD029] active:bg-[#F2F2F2] duration-300">
                 <i className="bi bi-heart"></i>
               </button>
